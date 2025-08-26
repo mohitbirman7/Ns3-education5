@@ -1,0 +1,395 @@
+.mainuper{
+  display: flex;
+  height: 600px;
+  width: 100%;
+  gap: 1.3px;
+  background: #f2f8f1;
+}
+.text{
+  background: white;
+  width: 570px;
+  height: 600px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f8f1;
+
+}
+.text.h1{
+   font-size: 38px;
+   margin:  0 0 8px;
+   background: #f2f8f1;
+}
+.poster1{
+  background: white;
+  width: 285px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f8f1;
+  overflow: hidden;
+  position: relative;
+
+}
+.poster1 img{
+ width: 260px;
+ height: 390px; 
+ border-radius: 10px;
+ background: #f2f8f1;
+  object-fit: cover;
+    animation: slideIn 1s ease forwards;
+}
+.poster2{
+  background: white;
+  width: 285px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f8f1;
+
+}
+.poster2 img{
+  height: 390px;
+  width: 260px;
+  margin-top: 170px;
+  border-radius: 10px;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%); /* left se entry */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* apni jagah */
+    opacity: 1;
+  }
+}
+.divspace1{
+  height: 238px;
+  width: 100%;
+  background-color: #14452f;
+  display: flex;
+  justify-content: space-around;
+}
+.divspace1 img{
+  height: 56px;
+  width: 56px;
+  margin: 0px 0px 30px;
+}
+.pp{
+  margin-top: 50px;
+}
+.num{
+  height: 26px;
+  width: 90px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  margin: 0 0 10px;
+}
+.str{
+  height: 26px;
+  width: 233px;
+  font-size: 16px;
+  color: white;
+  margin: 0 0 5px;
+  
+}
+.divspace2{
+  height: 583px;
+  background-color: white;
+  display: flex;
+  
+}
+.pos6{
+  margin-left: 100px;
+  margin-top: 100px;
+  
+}
+.pos6 img{
+    width: 482px;
+  height: 443px;
+}
+.text1{
+   margin-left: 100px;
+  margin-top: 100px;
+
+}
+.text1 p{
+  color: black;
+  height: 130px;
+  width: 540px;
+}
+.text1 h1{
+  color: black;
+  height: 93.58px;
+  width: 540px;
+}
+.divspace3{
+  background-color: #f2f8f1;
+  
+  height: 150.02px;
+  display: flex;
+}
+.container{
+  height: 148px;
+  width: 380px;
+  display: inline-block;
+ 
+}
+.container h2{
+  display: inline-flex;
+  margin: 50px 0 0 49px;
+  height: 93px;
+  width: fit-content;
+  font-size: 36px;
+}
+.options{
+  width: 800px;
+  height: 149px;
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+ 
+}
+.options a{
+   margin: 105px 10px 0 35px ;
+   font-size: 20px;
+   border: 1px;
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+   border: 0.2px solid rgb(193, 190, 190);
+   padding: 4px 4px;
+   border-radius: 15px;
+   background: white;
+   align-items: center
+   
+   
+   
+}
+.cartimg{
+  height: 111.89px;
+  width: 176.67px;
+  border: 1.3px solid black;
+  padding: 4px;
+  border-radius: 15px;
+}
+.cartlogo{
+  height: 16.47px;
+  width: 16.47px;
+}
+.ondemand {
+  width: 176.67px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.ondemand p{
+  margin-left: 10px;
+}
+.cart1{
+  width: 190px;
+  margin-bottom: 30px;
+} 
+.cartdetail p{
+  color: black;
+}
+.cartname{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  height: 52px;
+}
+.cartstars{
+  display: flex;
+  align-items: center;
+}
+.cartstars img{
+  height: 22px;
+}
+.cartstars p{
+  font-size: 15px;
+  height: 20.67px;
+  margin-left: 8px;
+}
+
+.cartspace1{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 52px;
+  margin-top: 50px;
+  
+}
+.allcarts{
+  background-color: #f2f8f1;
+  height: 870px;
+}
+.coursebtn{
+  display: inline-flex;
+  height: 55px;
+  width: 140px;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  margin-left: 552px;
+  border: 2px solid black;
+  border-radius: 14px;
+}
+.coursebtn a{
+  color: white;
+}
+.viewallcourse{
+  font-size: 16px;
+  font-weight: 600;
+  }
+  .clgheading{
+   margin-left: 100.6px;
+  }
+  .clgheading h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .college{
+    margin-left: 100.6px;
+    gap: 14px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+  }
+.clgcart{
+  height: 300px;
+  width: 230px;
+  font: 16px;
+  padding: 20px;
+  border-radius: 14px;
+  
+  box-shadow:1px 1px 7px 0.1px rgb(75, 73, 73);
+  
+
+}
+  .clgcart img{
+    height: 80px;
+    margin-bottom: 15px;
+    width: 190px;
+  }
+  .clgcart h4{
+    font-size: 18px;
+    margin : 0 0 10px;
+    height: 46.79px;
+    width: 190px;
+    font-weight: 700;
+
+  }
+  .clgcart p{
+    color: black;
+    width: 190px;
+    height: 52px;
+    margin: 0 0 15px;
+  }
+  #wctm{
+    height: 93.58px;
+  }
+ .partners{
+  height: 590.79px;
+  margin-top: 35px;
+
+ }
+ .partnercombine{
+  height: 417px;
+   margin: 0 60px 0 90px;
+ }
+ .ptnrheading h2{
+  font-size: 36px;
+  margin: 0 0 8px;
+  height: 46.79px;
+ }
+
+  .ptnrrows{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+  }
+.row{
+  display: flex;
+  gap: 60px;
+}
+.row img{
+  width: 140px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.ptnrrow1{
+  animation: moveRight 16s linear infinite;
+}
+.ptnrrow2{
+  animation: moveLeft 16s linear infinite;
+}
+.ptnrrow3{
+  animation: moveRight 16s linear infinite;
+}
+.ptnrrow4{
+  animation: moveLeft 16s linear infinite;
+}
+.ptnrrow5{
+  animation: moveRight 16s linear infinite;
+}
+@keyframes moveRight{
+  0% {transform: translateX(-100%);}
+  100% { transform: translateX(100%);}
+}
+@keyframes moveLeft{
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
+}
+
+.imgh{
+  display: flex;
+  align-items: center;
+  width: 348px;
+  height: 100.4px;
+  margin-bottom: 30px;
+  gap: 20px;
+
+  
+  
+}
+.imgh2{
+  height: 160.4px;
+  background-color: #14452f;
+  display: flex;
+  padding: 45px 0 15px 70px;
+  justify-content: space-around;
+  
+}
+.imgh img{
+  height: 55.33px;
+  width: 55px;
+  
+}
+.imgh h2{
+  height: 62.4px;
+  width: 269.99px;
+  color: white;
+  margin-bottom: 8px;
+  padding: 0 10px;
+  }
+  .joinLogo{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .logosame img{
+    height: 270px;
+    width: 540px;
+    border: 0.3px solid rgb(153, 151, 151);
+    margin: 60px 0 20px;
+    padding-bottom: 30px;
+    border-radius: 14px;
+    
+  }

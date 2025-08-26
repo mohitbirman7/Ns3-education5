@@ -1,0 +1,268 @@
+.footer{
+    background-color: #14452f;
+    height: 733.62px;
+    padding: 100px 0 0;
+    font: 16px;
+}
+.footer ul{
+    list-style-type: none;
+    padding-left: 0px ;
+}
+.footerlinks{
+    padding:50px 0 0  50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ftr h2{
+    color: white;
+}
+.ftr a{
+    color: white;
+    text-decoration: none;
+}
+.ftr p{
+    color: white;
+}
+.ftr{
+    height: 382.16px;
+    width: 255px;
+    padding: 0px 15px;
+    font: 16px;
+    display: flex;
+    justify-content: center;
+}
+.ns3{
+    height: 58px;
+    width: 221px;
+    margin: 0 0 14px -26px;
+}
+.ftrbase1 p{
+    height: 182px;
+    width: 255px;
+    font-size: 17.5px;
+    margin: 0 0 30px;
+    line-height: 26px;
+    contain-intrinsic-width: 7.15;
+}
+.footersocal{
+    height: 58px;
+    width: 255px;
+    font: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+.footersocal img{
+    height: 36px;
+    width: 36px;
+    border-radius: 40%;
+    
+    
+}
+.subfooter2 h2{
+    height: 26px;
+    width: 180px;
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+.subfooter2 ul{
+    height: 170px;
+    width: 180px;
+    font-weight: 16px;
+}
+.subfooter2  li{
+    height: 26px;
+    width: 180px;
+    font-size: 16px;
+    margin: 0 0 10px;
+} 
+.subfooter2 ul li a{
+  display: inline-block;
+  width: 100.93px;           
+  height: 21.33px;
+}
+.subfooter3 h2{
+    height: 26px;
+    width: 185px;
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+.subfooter3 ul{
+    height: 150px;
+    width: 185px;
+    font-weight: 16px;
+}
+.subfooter3  li{
+    height: 26px;
+    width: 185px;
+    font-size: 16px;
+    margin: 0 0 10px;
+} 
+.subfooter3 ul li a{
+  display: inline-block;
+  width: 172.93px;           
+  height: 21.33px;
+}
+.subfooter4 h2{
+    height: 26px;
+    width: 185px;
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+.subfooter4 ul{
+    height: 170px;
+    width: 185px;
+    font-weight: 16px;
+}
+.subfooter4  li{
+    height: 26px;
+    width: 185px;
+    font-size: 16px;
+    margin: 0 0 10px;
+} 
+.subfooter4 ul li a{
+  display: inline-block;
+  width: 136.93px;           
+  height: 21.33px;
+}
+
+
+.hr1{
+    margin: 0 70px 0 70px;
+}
+.termAndConditions{
+    height: 87px;
+    width: 1110px;
+    font-size: 16px;
+    margin: 0px 15px;
+    padding-top: 20px;
+}
+.termAndConditions p{
+    height: 72px;
+    width: 1110px;
+    margin: 0 0 15px;
+    padding: 0 15px;
+    color: white;
+    
+}
+.termAndConditions p span{
+    height: 21.33px;
+    width:  158.78px;
+    margin: 3px 20px 10px 0;
+    padding: 0 10px 0 0;
+    border-right: 2px solid white;
+    
+}
+.termAndConditions p span:last-child{
+    border-right: none;
+    display: block;
+    margin-top: 10px;
+}
+.copyright{
+    height: 124.79px;
+    width: 1110px;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    margin: 0 50px 0 50px ;
+   
+    
+   
+}
+.only-contant{
+    display: flex;
+}
+.copy-right-line{
+    height: 83.79px;
+    width: 267.5px;
+    font-size: 16px;
+    padding: 0 15px;
+    border-right: 1.9px solid black;
+}
+.copy-right-line p{
+    color: black;
+    height: 52px;
+    width: 196px;
+    margin: 0 0 15px;
+    padding-top: 10px;
+}
+.number{
+    height:  83.79px;
+    width: 356.66px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-right: 1.9px solid black;
+
+}
+.num-combine{
+    height: 83.79px;
+    width: 213.34px;
+    display: inline-block;
+    padding-left: 15px;
+}
+.nm{
+    font-size: 16px;
+    color: black;
+    display: flex;
+    
+}
+.num-combine p{
+    height: 26px;
+    width: 213.34px;
+    margin: 0 0 3px;
+    font-size: 16px;
+}
+.num-combine h2{
+    height: 46px;
+    width: 213.34px;
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+.num-combine h2 a{
+    height: 27.33px;
+    width: 187.53px;
+    font-size: 24px;
+}
+.email{
+    height: 83.70px;
+    width: 445.83px;
+    padding: 0 15px;
+    
+}
+.full-email{
+    height: 83.70px;
+    width: 445.83;
+    padding: 10px 15px;
+    position: relative;
+
+}
+.full-email img{
+    height: 26px;
+    
+    position: absolute;
+    
+}
+.full-email input{
+    height: 70px;
+    width: 415.83px;
+    padding:  0 190px  -45px ;
+    border-radius: 16px; 
+    padding-left: 42px;
+    font-size: 16px;
+
+}
+.full-email button{
+    height: 50px;
+    width: 160px;
+    font-size: 16px;
+    background-color: #14452f;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+     transform: translateY(-50%);
+     border-radius: 15px;
+     color: white;
+     font-weight: 900;
+    
+}
