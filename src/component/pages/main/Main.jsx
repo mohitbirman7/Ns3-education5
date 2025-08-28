@@ -33,6 +33,16 @@ const Main = () => {
         <div className="text">
           <h1>Blending Knowledge with <br />
             Practical Experience</h1>
+            <ul>
+              <li className='lionetwo' >
+                <img src="/main/uprtextlogo.png" alt="logo" />
+                <span className='span'>Free for physically handcraft</span>
+              </li>
+            <li className='lionetwo' ><img src="/main/uprtextlogo.png" alt="logo" />
+            <span  className='span'>Course certificate</span></li>
+            <li><img src="/main/uprtextlogo.png" alt="logo" />
+            <span className='span'>Easy to enroll courses</span></li>
+            </ul>
         </div>
         <div className="poster1">
           <img  key={index} // ye key important hai animation trigger ke liye
@@ -45,7 +55,14 @@ const Main = () => {
         src={images2[index]}
         alt="slider"
         className="slide-image" />
+
         </div>
+       <div className="moving-box">
+         <div className='mvngbox'>
+          <img src="/main/mvglogo.png" alt="logo" />
+         </div>
+         <h5>More than <span style={{ color: "green" }}>12,600+</span> students enrolled around the world</h5>
+         </div>
       </div>
 
 

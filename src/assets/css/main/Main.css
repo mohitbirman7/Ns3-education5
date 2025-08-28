@@ -7,20 +7,45 @@
 }
 .text{
   background: white;
-  width: 570px;
-  height: 600px;
+  width: 540px;
+  height: 215.79px;
   margin-left: 50px;
-  display: flex;
+  margin-top: 200px;
+  text-align: center;
   justify-content: center;
   align-items: center;
   background: #f2f8f1;
 
 }
 .text.h1{
+  height: 98.79px;
+  width: 540px;
    font-size: 38px;
    margin:  0 0 8px;
-   background: #f2f8f1;
 }
+.text ul{
+  height: 72px;
+  width: 540px;
+  list-style: none;
+}
+.text ul li{
+  height: 26px;
+  width: 242px;
+  margin-left: 50px;
+  
+}
+.text ul img{
+  height: 20px;
+  width: 20px;
+}
+.span{
+   display: inline-block;
+  height: 22px;
+  width: 207px;
+text-align: left;
+margin-left: 10px;
+}
+
 .poster1{
   background: white;
   width: 285px;
@@ -67,6 +92,55 @@
     opacity: 1;
   }
 }
+
+
+.moving-box {
+  width: 283px;
+  height: 75px;
+  padding: 25px 20px 16px;
+  background: #ffffff;
+  color:  #575757;
+  font-size: 16px;
+  top: 54.2%;
+  right: 6.7%;
+  position: absolute;
+  border-radius: 19px;
+  animation: updown 7s infinite ease-in-out;
+}
+.moving-box h5{
+  color: #22281E;
+  font-size: 18px;
+  /* height: 56px; */
+  width: 243px;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  
+  
+}
+
+.mvngbox img{
+  height: 50.22px;
+  width: 131.2px;
+  font-weight: 16px;
+  padding: 10px;
+  position: absolute;
+  bottom: 80%;
+  border-radius: 19px;
+}
+
+/* keyframes for up-down movement */
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-90px); /* 90px upar */
+  }
+  100% {
+    transform: translateY(0); /* wapas neeche */
+  }
+}
+ 
 .divspace1{
   height: 238px;
   width: 100%;

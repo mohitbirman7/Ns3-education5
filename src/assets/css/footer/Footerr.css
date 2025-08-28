@@ -3,6 +3,8 @@
     height: 733.62px;
     padding: 100px 0 0;
     font: 16px;
+    position: relative;
+    bottom: 0px;
 }
 .footer ul{
     list-style-type: none;

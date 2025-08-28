@@ -3,14 +3,10 @@
    display: flex;
    color: black;
    height: 100px;
-   width: 918.5px;
+   width: 100%;
    font-size: 16px;
-   margin-top: 40px;
-    position: fixed;
-    width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+   /* margin-top: 40px; */
+
    
 }
 .ns3 img{
@@ -31,7 +27,7 @@
   height: 53.67px;
   width: 178.67px;
   align-items: center;
-  border: 0.1px solid rgb(211, 209, 209);
+  /* border: 0.1px solid rgb(211, 209, 209); */
   border-radius: 9px;
   margin: 40px 0 0 25px;
   display: flex;
@@ -46,6 +42,10 @@
   justify-content:space-around;
 
 }
+.logo-btn ul a:hover{
+  color: rgb(137, 20, 20);
+  font-weight: bolder;
+}
 .about{
   height: 100px;
   width: 45.22px;
@@ -59,7 +59,7 @@
 .aboutchild {
   display: none;
   position: absolute;
-  top: 29%;
+  top: 99%;
   left: 36%;
   background: white;
   height: 116px;
@@ -81,11 +81,13 @@
   height: 45px;
   padding: 5px 10px;
   text-decoration: none;
-
+  border-radius: 20px;
 }
 
 .aboutchild a:hover {
-  background: #555;
+  background: #e6e4e4;
+  color: black;
+  font-weight: bolder;
 }
 
 
@@ -126,12 +128,12 @@
 .resoursechild {
   display: none;
   position: absolute;
-  top: 29%;          /* apne layout ke hisaab se adjust karo */
+  top: 99%;          /* apne layout ke hisaab se adjust karo */
   left: 65.7%;         /* About se alag jagah chahiye to value badlo */
   background: white;
   width: 240px;
   padding: 10px;
-  border: 0.3px solid rgb(176, 172, 172); 
+  /* border: 0.3px solid rgb(176, 172, 172);  */
   z-index: 10;
 }
 
@@ -142,11 +144,13 @@
   height: 45px;
   padding: 5px 10px;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 .resoursechild a:hover {
-  background: #555;
-  color: #fff;
+  background: #e6e4e4;
+  color: black;
+  font-weight: bolder;
 }
 
 /* 👇 Ye rule hi dropdown open karega */
@@ -166,7 +170,7 @@
   display: flex;
   height: 55px;
   width: 286.17px;
-  margin-left: 120px;
+  margin-left: 110px;
 }
 .wtup img{
   
@@ -183,6 +187,9 @@
   margin: 40px 0 0 25px;
   padding: 0px 42px;
   font-weight: bolder;
+}
+.wtup button:hover{
+  background-color: rgb(24, 205, 24);
 }
 /* .btn{
     width: 100%;
@@ -210,7 +217,7 @@
   color: white;
   font-weight: bold;
   font-size: 16px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .scroll-track {
@@ -228,3 +235,4 @@
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+

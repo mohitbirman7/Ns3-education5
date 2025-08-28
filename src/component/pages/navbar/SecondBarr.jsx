@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../../assets/css/navbar/SecondBarr.css"
-
+import about from './about'
 
 const secondBarr = () => {
   return (
@@ -19,7 +19,7 @@ const secondBarr = () => {
             <ul>
               <a href="/" className="about">About</a>
               <div className="aboutchild">
-                <a href="">About Us</a>
+                <a href="/about.jsx">About Us</a>
                 <a href="">Culture in NS3</a>
               </div>
               <a href="/" className="placement">Placement</a>
